@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:650px;
+    display: block;
+    background-size: cover;
+}
+.cotetion-area{
+    float: right;
+    width: 50%;
+}
+.cotetion{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+    padding: 200px 200px 0px 0px;
+}
+.cotetion-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    padding: 0px 200px 0px 0px;
+    color: #858585;
+    margin: 15px 0px;
+}
+input.btn {
+    background-color: #E35230;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    margin: 0px 200px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  .failures-area{
+    clear: both;
+    height: auto;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 150px;
+  }
+.person-image img{
+    height:auto;
+    width:  350px;
+    object-fit: cover;
+}
+.heading-text{
+    padding: 00px 100px 0px 200px
+
+}
+.heading-text p{
+    margin: 20px 0px;
+}
+.heading-text-one{
+    font-weight: 700;
+    font-size: 40px;
+}
+.heading-text-des{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.heading-text ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 0px;
+}
+.fa-check{
+    color: #57E3A8;
+    padding-right: 10px;
+}
+
+/* My Plans CSS */
+.plans{
+    display: block;
+    margin: 80px;
+    position: relative;
+}
+.plans-heading{
+    text-align: center;
+}
+.palns-info-container{
+    display: flex;
+    margin: 5% 10%;
+    align-items: center;
+    justify-content: space-between;;
+}
+.plans-about{
+    width: 270px;
+    position: relative;
+}
+.plans-about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 90px;
+    
+}
+.plans-title{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+}
+.plnas-des{
+    text-align: center; 
+    font-size: 18px;
+    color: #737272
+    ;
+}
+.positive-mind-img{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 300px;
+    width: 65%;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+
+}
+.image-heading{
+    position: absolute;
+    width: 50%;
+    padding-left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.image-heading p{
+font-weight: 600;
+font-size: 40px;
+color: #FFFFFF;
+}
+
+input.btn-call-now {
+    background-color: #FFFFFF;
+    color: #ED5B22;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 10px 200px 0px 0px;
+    border: none;
+    border-radius: 8px;
+    
+  }
+  /* footer */
+  .footer {
+    display: flex;
+    padding: 80px;
+    margin-top: 60px;
+    background-color: #292c2f;
+    color: #F8F8F8;
+  }
+  .description{
+    width: 50%;
+  }
+  .future{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin: 12px;
+  }
+  .email, .phone-number, .des-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    margin: 12px;
+    line-height: 26px;
+  }
+  .search{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 5px;
+  }
+.search-holder{
+  padding: 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  }
+  .btn-search{
+    background-color: #FFFFFF;
+    color: #ED5B22;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 10px 200px 0px 0px;
+    border: none;
+    border-radius: 8px;
+  }
+.search-holder, .btn-search{
+    margin: 10px;
+  }
+.socila-icon{
+    display: flex;
+  }
+.socila-icon img{
+    margin: 10px;
+}
